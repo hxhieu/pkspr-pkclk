@@ -1,0 +1,27 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}"
+                ],
+                "limitSymbolsToIncludedHeaders": true
+            },
+            "includePath": [
+                "${workspaceFolder}",
+                "/home/hughho/esp/8bkc-sdk/esp-idf/components/nvs_flash/include",
+                "/home/hughho/esp/8bkc-sdk/esp-idf/components/esp32/include",
+                "/home/hughho/esp/8bkc-sdk/8bkc-components/8bkc-hal/include",
+                "/home/hughho/esp/8bkc-sdk/8bkc-components/powerbtn_menu",
+                "/home/hughho/esp/8bkc-sdk/8bkc-components/tilegfx",
+                "/home/hughho/esp/8bkc-sdk/8bkc-components/sndmixer"
+            ],
+            "defines": [],
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "clang-x64"
+        }
+    ],
+    "version": 4
+}

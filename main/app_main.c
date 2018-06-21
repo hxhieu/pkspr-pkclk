@@ -304,6 +304,7 @@ void play_game() {
 		// 	tilegfx_rect_t srect={.h=3*8, .w=8*8, .x=12*8, .y=0};
 		// 	tilegfx_tile_map_render(scoremap, 12*8, 0, &srect);
 		// }
+		tilegfx_fade(0,0,0,0);
 		// //Send to screen.
 		tilegfx_flush();
 	}
